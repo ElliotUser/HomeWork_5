@@ -2,9 +2,9 @@ package ru.rick_Sanchez.company.homeWork;
 
 public class Horse extends Animals{
 
-    private int runMaxMetres = 1500;
-    private int swimMaxMetres = 100;
-    private int jumpMaxMetres = 3;
+    private int runMaxMetres;
+    private int swimMaxMetres;
+    private int jumpMaxMetres;
 
     public Horse(int runMaxMetres, int swimMaxMetres, float jumpMaxMetres) {
         super(runMaxMetres, swimMaxMetres, jumpMaxMetres);

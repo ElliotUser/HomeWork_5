@@ -2,9 +2,9 @@ package ru.rick_Sanchez.company.homeWork;
 
 public class Cat extends Animals {
 
-    private int runMaxMetres = 200;
-    private int swimMaxMetres = 0;
-    private int jumpMaxMetres = 2;
+    private int runMaxMetres;
+    private int swimMaxMetres;
+    private int jumpMaxMetres;
 
     public Cat(int runMaxMetres, int swimMaxMetres, float jumpMaxMetres) {
         super(runMaxMetres, swimMaxMetres, jumpMaxMetres);

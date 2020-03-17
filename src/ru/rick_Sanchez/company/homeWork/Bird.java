@@ -2,9 +2,9 @@ package ru.rick_Sanchez.company.homeWork;
 
 public class Bird extends Animals{
 
-    private int runMaxMetres = 5;
-    private int swimMaxMetres = 0;
-    private float jumpMaxMetres = 0.2f;
+    private int runMaxMetres;
+    private int swimMaxMetres;
+    private float jumpMaxMetres;
 
     public Bird(int runMaxMetres, int swimMaxMetres, float jumpMaxMetres) {
         super(runMaxMetres, swimMaxMetres, jumpMaxMetres);
